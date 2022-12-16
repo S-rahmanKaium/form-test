@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .form {
+            background-color: rgb(83, 122, 142);
+            /* text-align: center; */
+            border-radius: 4px;
+            padding: 20px;
+            /* text-align: center; */
+
+        }
+
+        input[type=text],
+        select {
+            width: 100%;
+            margin: 8px 0;
+            display: inline-block;
+            border-radius: 4px;
+            box-sizing: border-box;
+            padding: 12px 20px;
+            border: 1px solid orange;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: rgb(39, 163, 45);
+            color: rgb(241, 252, 255);
+            border-radius: 3px;
+            border: none;
+            cursor: pointer;
+            margin: 8px 0;
+            padding: 14px 16px;
+        }
+
+        input[type=submit]:hover {
+            background-color: rgb(0, 0, 0);
+        }
+        h3 {
+            text-align: center;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Our First Form </h3>
+    <div class="form">
+        <form action="action.php">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname"
+            placeholder="Type your First Name">
+
+            <label for="lname">Last Name:</label>
+            <input type="text" name="lname" id="lname"
+            placeholder="Type your Last Name">
+            <label for="select">select from here :</label>
+            <select name="select" id="select">
+                
+                <option value="bd">Bangladesh</option>
+                <option value="bd">india</option>
+                <option value="bd">usa</option>
+
+
+            </select>
+
+<input type="submit" name="submit" id="submit">
+
+                
+            
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
